@@ -1,0 +1,43 @@
+login:
+  rememberBox: 'Remember me'
+  loginButton: 'Login'
+  retryButton: 'Retry?'
+  optionsButton: 'Options'
+  offlineButton: 'Offline mode'
+  usernameLabel: 'Username'
+  passwordLabel: 'Password'
+  loginning: 'Login...'
+news:
+  defaultText: 'Loading...'
+options:
+  windowTitle: 'Launcher options'
+  forceUpdateFalse: 'Force update'
+  forceUpdateTrue: 'Will force!'
+  offlineMode: 'Offline Mode'
+  onlineMode: 'Online Mode'
+  mods:
+    title: 'Mods'
+  gameLocationLabel: 'Game location on disk'
+  done: 'Done'
+updater:
+  title: 'Updating {GAMENAME}...'
+  newUpdateAvailable: 'New update available.'
+  askUpdate: 'Would you like to update?'
+  states:
+    INIT: 'Initializing loader'
+    DETERMINING_PACKAGES: 'Determining packages to load'
+    CHECKING_CACHE: 'Checking cache for existing files'
+    DOWNLOADING: 'Downloading packages'
+    EXTRACTING_PACKAGES: 'Extracting downloaded packages'
+    UPDATING_CLASSPATH: 'Updating classpath'
+    SWITCHING_APPLET: 'Switching applet'
+    INITIALIZE_REAL_APPLET: 'Initializing real applet'
+    START_REAL_APPLET: 'Starting real applet'
+    DONE: 'Done loading'
+  retrieving: "Retrieving"
+  extracting: "Extracting"
+  extractTo: "to"
+global:
+  yesStr: 'Yes'
+  noStr: 'No'
+  cancel: 'Cancel'

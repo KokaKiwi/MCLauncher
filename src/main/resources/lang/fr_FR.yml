@@ -1,0 +1,43 @@
+login:
+  rememberBox: 'Se souvenir du mot de passe'
+  loginButton: 'Connexion'
+  retryButton: 'Ré-essayer?'
+  optionsButton: 'Options'
+  offlineButton: 'Mode offline'
+  usernameLabel: "Nom d'utilisateur"
+  passwordLabel: 'Mot de passe'
+  loginning: 'Connexion...'
+news:
+  defaultText: 'Chargement...'
+options:
+  windowTitle: 'Options du launcher'
+  forceUpdateFalse: 'Forcer la mise à jour'
+  forceUpdateTrue: 'Forcée!'
+  offlineMode: 'Mode Hors-ligne'
+  onlineMode: 'Mode En-ligne'
+  mods:
+    title: 'Mods'
+  gameLocationLabel: 'Emplacement sur le disque'
+  done: 'Valider'
+updater:
+  title: 'Mise à jour de {GAMENAME}...'
+  newUpdateAvailable: 'Une mise à jour est disponible.'
+  askUpdate: 'Voulez-vous appliquer la Mise à Jour?'
+  states:
+    INIT: "Initialisation"
+    DETERMINING_PACKAGES: "Determination des fichiers a telecharger..."
+    CHECKING_CACHE: "Verification du cache..."
+    DOWNLOADING: "Telechargement des fichiers..."
+    EXTRACTING_PACKAGES: "Extraction des fichiers telecharges..."
+    UPDATING_CLASSPATH: "Mise a jour des donnees..."
+    SWITCHING_APPLET: "Chargement du jeu..."
+    INITIALIZE_REAL_APPLET: "Initialisation.."
+    START_REAL_APPLET: "Demarrage du jeu..."
+    DONE: "Chargement fini !"
+  retrieving: "Téléchargement de"
+  extracting: "Extraction de"
+  extractTo: "vers"
+global:
+  yesStr: 'Oui'
+  noStr: 'Non'
+  cancel: 'Annuler'

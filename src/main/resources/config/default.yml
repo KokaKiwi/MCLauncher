@@ -1,0 +1,42 @@
+window:
+  title: 'Minecraft'                                                                            # Titre de la fenetre du launcher.
+  icon: 'res/favicon.png'                                                                       # Icone de la fenetre du launcher.
+  theme: com.kokakiwi.mclauncher.ui.simple.SimpleTheme                                          # Theme du launcher, si non indique, il utilise SimpleTheme
+news:
+  url: 'http://mcupdate.tumblr.com/'                                                            # URL de la page des news (Si utilise)
+game:
+  folder:
+    customFolder: true                                                                          # Utiliser le gameDir a la place du dossier user
+    gameDir: 'mcp_data'                                                                         # Dossier contenant le dossier du jeu (folderName)
+    folderName: 'minecraft'                                                                     # Dossier contenant le jeu
+login:
+  url: 'https://login.minecraft.net'
+  file: 'lastlogin'
+  encryptionKey: 'passwordfile'
+  launcherVersion: 13
+  offlineMode: false
+updater:
+  askUpdateIfAvailable: true                                                                    # Demander quand une MaJ est disponible
+  libraries:
+  - 'http://s3.amazonaws.com/MinecraftDownload/lwjgl.jar'
+  - 'http://s3.amazonaws.com/MinecraftDownload/jinput.jar'
+  - 'http://s3.amazonaws.com/MinecraftDownload/lwjgl_util.jar'
+  - 'http://s3.amazonaws.com/MinecraftDownload/minecraft.jar'
+  natives:
+    windows: 'http://s3.amazonaws.com/MinecraftDownload/windows_natives.jar.lzma'
+    linux: 'http://s3.amazonaws.com/MinecraftDownload/linux_natives.jar.lzma'
+    macos: 'http://s3.amazonaws.com/MinecraftDownload/macosx_natives.jar.lzma'
+    solaris: 'http://s3.amazonaws.com/MinecraftDownload/solaris_natives.jar.lzma'
+  additionnals:
+    []
+  versions:
+  - name: 'official'
+    source: null
+    file: 'version'
+    force: false
+launcher:
+  documentBaseURL: 'http://www.minecraft.net/game/'
+  gameHost: 'www.minecraft.net'
+theme:
+  simple:
+    background: 'res/dirt.png'
