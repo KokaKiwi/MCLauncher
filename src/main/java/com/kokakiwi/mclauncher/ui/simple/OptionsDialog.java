@@ -187,7 +187,7 @@ public class OptionsDialog extends JDialog
         fieldPanel.add(dirLink);
         
         // MODS DIALOG
-        labelPanel.add(new JLabel(Translater.getString("options.mods.title")
+        /* labelPanel.add(new JLabel(Translater.getString("options.mods.title")
                 + " : "));
         JButton modsButton = new JButton(
                 Translater.getString("options.mods.title"));
@@ -198,7 +198,7 @@ public class OptionsDialog extends JDialog
                 new ModsDialog(OptionsDialog.this).setVisible(true);
             }
         });
-        fieldPanel.add(modsButton);
+        fieldPanel.add(modsButton); */
         
         panel.add(optionsPanel, "Center");
         
