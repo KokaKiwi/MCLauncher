@@ -6,7 +6,7 @@ news:
   url: 'http://mcupdate.tumblr.com/'                                                            # URL de la page des news (Si utilise)
 game:
   folder:
-    customFolder: true                                                                          # Utiliser le gameDir a la place du dossier user
+    customFolder: false                                                                         # Utiliser le gameDir a la place du dossier user
     gameDir: 'mcp_data'                                                                         # Dossier contenant le dossier du jeu (folderName)
     folderName: 'minecraft'                                                                     # Dossier contenant le jeu
 login:
