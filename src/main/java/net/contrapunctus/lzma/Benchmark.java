@@ -67,6 +67,7 @@ public class Benchmark
         }
         System.out.printf("%d bytes decompressed, checksum %X\n", byteCount,
                 ck.getValue());
+        li.close();
         assert sum == ck.getValue();
     }
     

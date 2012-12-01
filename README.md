@@ -14,6 +14,11 @@ French Readme Version
 Changelog
 =========
 
+v 1.0.1
+-----
+* Support de Minecraft Forge Mod Loader.
+* Les dossiers se font (normalement) au bon endroit sous Linux.
+
 v 1.0.0
 -----
 * Refonte TOTALE

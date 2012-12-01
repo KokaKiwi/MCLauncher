@@ -11,6 +11,7 @@ import com.kokakiwi.mclauncher.core.Launcher;
 import com.kokakiwi.mclauncher.core.Loginer;
 import com.kokakiwi.mclauncher.core.TimeLine;
 import com.kokakiwi.mclauncher.core.Updater;
+import com.kokakiwi.mclauncher.core.launcher.LauncherApplet;
 import com.kokakiwi.mclauncher.ui.LauncherFrame;
 import com.kokakiwi.mclauncher.ui.simple.SimpleTheme;
 import com.kokakiwi.mclauncher.utils.Configuration;
@@ -35,6 +36,9 @@ public class MCLauncher
     {
         instance = this;
         MCLogger.register();
+        // Minecraft Forge Mod Loader property.
+        System.setProperty("minecraft.applet.WrapperClass",
+                LauncherApplet.class.getCanonicalName());
         
         try
         {

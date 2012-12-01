@@ -57,7 +57,6 @@ public class LauncherApplet extends Applet implements AppletStub
         validate();
     }
     
-    
     public boolean isActive()
     {
         if (context == 0)
@@ -80,7 +79,6 @@ public class LauncherApplet extends Applet implements AppletStub
         }
         return super.isActive();
     }
-    
     
     public String getParameter(String name)
     {
@@ -107,7 +105,6 @@ public class LauncherApplet extends Applet implements AppletStub
         return custom;
     }
     
-    
     public URL getDocumentBase()
     {
         try
@@ -122,7 +119,6 @@ public class LauncherApplet extends Applet implements AppletStub
         return null;
     }
     
-    
     public void stop()
     {
         if (applet != null)
@@ -132,7 +128,6 @@ public class LauncherApplet extends Applet implements AppletStub
             return;
         }
     }
-    
     
     public void destroy()
     {

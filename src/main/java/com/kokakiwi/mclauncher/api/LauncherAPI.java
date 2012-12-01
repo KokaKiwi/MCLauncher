@@ -99,15 +99,19 @@ public class LauncherAPI
     public File getMinecraftDirectory()
     {
         File dir = null;
-        
         File root = new File(System.getProperty("user.home", ".") + "/");
         final String appName = main.getConfig().getString(
                 "game.folder.folderName");
         
         if (main.getConfig().getBoolean("game.folder.customFolder"))
         {
-            root = new File(main.getConfig().getString("game.folder.gameDir"))
-                    .getAbsoluteFile();
+            String customFolder = main.getConfig().getString("game.folder.gameDir");
+            if (customFolder != null)
+            {
+                customFolder = customFolder.replace("{ROOT}",
+                        SystemUtils.getExecDirectoryPath());
+                root = new File(customFolder).getAbsoluteFile();
+            }
         }
         
         switch (SystemUtils.getSystemOS())

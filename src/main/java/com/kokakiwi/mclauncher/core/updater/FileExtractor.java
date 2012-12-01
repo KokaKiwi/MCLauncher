@@ -130,6 +130,8 @@ public class FileExtractor
                         new FileOutputStream(e), current, total, min, max);
             }
         }
+        
+        zip.close();
     }
     
     public static void extractJAR(LauncherAPI api, GameFile source, File file,

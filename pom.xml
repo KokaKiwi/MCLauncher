@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kokakiwi.mclauncher</groupId>
 	<artifactId>mclauncher</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>MCLauncher</name>
 	<description>Minecraft Custom Launcher</description>
 	<dependencies>
