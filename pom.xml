@@ -57,22 +57,6 @@
 					<target>1.5</target>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>com.kokakiwi.mclauncher.maven</groupId>
-				<artifactId>mclauncher-maven-plugin</artifactId>
-				<version>1.0.0</version>
-				<executions>
-					<execution>
-						<phase>generate-sources</phase>
-						<goals>
-							<goal>compile</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					
-				</configuration>
-			</plugin>
 		</plugins>
 		<pluginManagement>
 			<plugins>
