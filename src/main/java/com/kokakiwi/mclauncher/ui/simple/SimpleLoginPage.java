@@ -214,7 +214,14 @@ public class SimpleLoginPage implements Page
                                         .setDownloadTicket("12345");
                                 if (rememberMe.isSelected())
                                 {
-                                    api.getLoginer().storeLogin(username.getText(), "lolilol");
+                                    try
+                                    {
+                                        api.getLoginer().storeLogin(userName.getText(), "lolilol");
+                                    }
+                                    catch (Exception e)
+                                    {
+                                        e.printStackTrace();
+                                    }
                                 }
                             }
                             
