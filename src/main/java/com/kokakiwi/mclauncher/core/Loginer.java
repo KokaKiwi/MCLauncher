@@ -100,7 +100,7 @@ public class Loginer
     
     // Utils
     
-    private void storeLogin(String username, String password) throws Exception
+    public void storeLogin(String username, String password) throws Exception
     {
         final File file = new File(main.getApi().getMinecraftDirectory(),
                 "lastlogin");
@@ -114,7 +114,7 @@ public class Loginer
         out.close();
     }
     
-    private void readLogin() throws Exception
+    public void readLogin() throws Exception
     {
         final File file = new File(main.getApi().getMinecraftDirectory(),
                 "lastlogin");
