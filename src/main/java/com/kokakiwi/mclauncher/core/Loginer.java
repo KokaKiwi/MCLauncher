@@ -82,7 +82,7 @@ public class Loginer
                 {
                     storedUsername = username;
                     storedPassword = password;
-                    storeLogin();
+                    storeLogin(username, password);
                 }
                 catch (final Exception e)
                 {
@@ -100,7 +100,7 @@ public class Loginer
     
     // Utils
     
-    private void storeLogin() throws Exception
+    private void storeLogin(String username, String password) throws Exception
     {
         final File file = new File(main.getApi().getMinecraftDirectory(),
                 "lastlogin");
@@ -109,8 +109,8 @@ public class Loginer
                 .getString("login.encryptionKey"));
         final DataOutputStream out = new DataOutputStream(
                 new CipherOutputStream(new FileOutputStream(file), cipher));
-        out.writeUTF(storedUsername);
-        out.writeUTF(storedPassword);
+        out.writeUTF(username);
+        out.writeUTF(password);
         out.close();
     }
     
