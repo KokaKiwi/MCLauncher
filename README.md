@@ -1,6 +1,8 @@
 MCLauncher
 ==========
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/KokaKiwi/mclauncher/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 English Readme Version
 ----------------------
 
@@ -9,7 +11,7 @@ English Readme Version
 French Readme Version
 ---------------------
 
-**MCLauncher** est un lanceur customisé de Minecraft, destiné aux joueurs souhaitant rendre leur launcher plus "personnel"
+**MCLauncher** est un lanceur customisï¿½ de Minecraft, destinï¿½ aux joueurs souhaitant rendre leur launcher plus "personnel"
 
 Changelog
 =========
@@ -22,7 +24,7 @@ v 1.0.1
 v 1.0.0
 -----
 * Refonte TOTALE
-* Ajout d'un système de thèmes permettant de coder une interface customisée pour le launcher, avec une API permettant de faire les manipulations du launcher (téléchargement, mise à jour, etc...)
+* Ajout d'un systï¿½me de thï¿½mes permettant de coder une interface customisï¿½e pour le launcher, avec une API permettant de faire les manipulations du launcher (tï¿½lï¿½chargement, mise ï¿½ jour, etc...)
 
 v 0.9.5
 -----
