@@ -1,7 +1,8 @@
 MCLauncher
 ==========
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/KokaKiwi/mclauncher/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/KokaKiwi/mclauncher/trend.png)](https://bitdeli.com/free "Bitdeli Badge")[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKokaKiwi%2FMCLauncher.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FKokaKiwi%2FMCLauncher?ref=badge_shield)
+
 
 English Readme Version
 ----------------------
@@ -43,3 +44,7 @@ ToDo List
 =========
 
 * Faire un builder de launcher, permettant de configurer facilement un launcher.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKokaKiwi%2FMCLauncher.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FKokaKiwi%2FMCLauncher?ref=badge_large)
