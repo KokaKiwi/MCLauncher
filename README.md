@@ -13,6 +13,13 @@ French Readme Version
 
 **MCLauncher** est un lanceur customis� de Minecraft, destin� aux joueurs souhaitant rendre leur launcher plus "personnel"
 
+
+Versão Em Português Do README
+----------------------
+
+**MCLauncher** É um launcher customizavel para Minecraft, destinado para permitir jogadores de Minecraft a customizar o seu launcher.
+
+
 Changelog
 =========
 
