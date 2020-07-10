@@ -1,0 +1,43 @@
+login:
+  rememberBox: 'Me Lembrar'
+  loginButton: 'Login'
+  retryButton: 'Tertar Novamente?'
+  optionsButton: 'Opções'
+  offlineButton: 'Modo Offline'
+  usernameLabel: 'Nome De Usuario'
+  passwordLabel: 'Senha'
+  loginning: 'Logando...'
+news:
+  defaultText: 'Carregando...'
+options:
+  windowTitle: 'Opções Do Launcher'
+  forceUpdateFalse: 'Forçar Atualização'
+  forceUpdateTrue: 'Ira Forçar !'
+  offlineMode: 'Modo Offline'
+  onlineMode: 'Modo Online'
+  mods:
+    title: 'Mods'
+  gameLocationLabel: 'Localização do Game no Disco'
+  done: 'Pronto'
+updater:
+  title: 'Atualizando {GAMENAME}...'
+  newUpdateAvailable: 'Nova Atualização Disponivel.'
+  askUpdate: 'Você Gostaria De Atualizar?'
+  states:
+    INIT: 'Inicializando Carregador.'
+    DETERMINING_PACKAGES: 'Determinando Pacotes Para Carregar'
+    CHECKING_CACHE: 'Checando cache Para Arquivos Existentes'
+    DOWNLOADING: 'Baixando Pacotes'
+    EXTRACTING_PACKAGES: 'Extraindo Pacotes Instalados'
+    UPDATING_CLASSPATH: 'Atualizando Caminho De Classe'
+    SWITCHING_APPLET: 'Trocando applet'
+    INITIALIZE_REAL_APPLET: 'Iniciando applet Real'
+    START_REAL_APPLET: 'Começando/Abrindo applet Real'
+    DONE: 'Carregamento Pronto'
+  retrieving: "Recuperando"
+  extracting: "Extraindo"
+  extractTo: "para"
+global:
+  yesStr: 'Sim'
+  noStr: 'Não'
+  cancel: 'Cancelar'
