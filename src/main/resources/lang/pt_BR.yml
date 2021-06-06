@@ -1,7 +1,7 @@
 login:
   rememberBox: 'Me Lembrar'
   loginButton: 'Login'
-  retryButton: 'Tertar Novamente?'
+  retryButton: 'Tentar Novamente?'
   optionsButton: 'Opções'
   offlineButton: 'Modo Offline'
   usernameLabel: 'Nome De Usuario'
