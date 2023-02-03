@@ -126,6 +126,9 @@ public class FileExtractor
             else
             {
                 final File e = new File(dest, entry.getName());
+                if (!e.toPath().normalize().startsWith(dest.toPath().normalize())) {
+                    throw new IOException("Bad zip entry");
+                }
                 copyStream(api, source, zip.getInputStream(entry),
                         new FileOutputStream(e), current, total, min, max);
             }
@@ -180,6 +183,9 @@ public class FileExtractor
             else
             {
                 final File e = new File(dest, entry.getName());
+                if (!e.toPath().normalize().startsWith(dest.toPath().normalize())) {
+                    throw new IOException("Bad zip entry");
+                }
                 if (!e.getParent().contains("META-INF"))
                 {
                     copyStream(api, source, jar.getInputStream(entry),
